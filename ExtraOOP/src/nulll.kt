@@ -1,6 +1,10 @@
 package nulll
 
+import ext_function.square
+
 fun main() {
+    println(6.square())
+
     // Однако переменным стандартных типов, например, типа Int или String или любых других классов, мы не можем просто
     // взять и присвоить значение null:
 
